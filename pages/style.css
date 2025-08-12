@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../public/desktop-wallpaper-mountains-rocks-night-starry-sky-scenery-illustration-macos-big-sur-ios-14-nature.jpg');
+    background-image: url('/public/desktop-wallpaper-mountains-rocks-night-starry-sky-scenery-illustration-macos-big-sur-ios-14-nature.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
