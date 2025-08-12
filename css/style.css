@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../public/desktop-wallpaper-mountains-rocks-night-starry-sky-scenery-illustration-macos-big-sur-ios-14-nature.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    border:  1px solid white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    backdrop-filter:blur(20px);
+    box-shadow: 0px 0px 20px rgb(175, 160, 160);
+}
+
+
+.inp{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 14px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 40px;
+    background-color: transparent;
+    text-indent: 15px;
+    color: #fff;
+}
+.inp::placeholder{
+    color: white;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.remember a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.form p{
+    font-size: 14px;
+}
+.form p a{
+    text-decoration: none;
+    color: white;
+}
+.check{
+    background-color: transparent;
+    /* appearance: none; */
+    width: 10px;
+}
